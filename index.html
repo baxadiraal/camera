@@ -693,22 +693,52 @@ body.overlay-locked{ overflow:hidden; }
   const overlay = document.getElementById("overlay");
   const overlayIframe = document.getElementById("overlayIframe");
   const overlayTitle = document.getElementById("overlayTitle");
+  function isMobile(){
+    return window.matchMedia("(pointer:coarse)").matches || window.innerWidth <= 900;
+  }
+
+  function enterFullscreenLandscape(){
+    if(!isMobile()) return;
+    const req = overlay.requestFullscreen || overlay.webkitRequestFullscreen;
+    const fsPromise = req ? req.call(overlay) : Promise.resolve();
+    Promise.resolve(fsPromise).then(function(){
+      if(screen.orientation && screen.orientation.lock){
+        return screen.orientation.lock("landscape").catch(function(){});
+      }
+    }).catch(function(){});
+  }
+
+  function exitFullscreenAndUnlock(){
+    if(screen.orientation && screen.orientation.unlock){
+      try{ screen.orientation.unlock(); }catch(e){}
+    }
+    if(document.fullscreenElement || document.webkitFullscreenElement){
+      const exit = document.exitFullscreen || document.webkitExitFullscreen;
+      if(exit) Promise.resolve(exit.call(document)).catch(function(){});
+    }
+  }
+
   document.querySelectorAll(".expand-btn").forEach(function(b){
     b.addEventListener("click", function(){
       overlayIframe.src = b.dataset.src;
       overlayTitle.textContent = b.dataset.name;
       overlay.classList.add("open");
       document.body.classList.add("overlay-locked");
+      enterFullscreenLandscape();
     });
   });
   function closeOverlay(){
     overlay.classList.remove("open");
     overlayIframe.src = "";
     document.body.classList.remove("overlay-locked");
+    exitFullscreenAndUnlock();
   }
   document.getElementById("overlayClose").addEventListener("click", closeOverlay);
   overlay.addEventListener("click", function(e){ if(e.target === overlay) closeOverlay(); });
   document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeOverlay(); });
+  document.addEventListener("fullscreenchange", function(){
+    if(!document.fullscreenElement && overlay.classList.contains("open")) closeOverlay();
+  });
 
   document.getElementById("year").textContent = new Date().getFullYear();
 })();
