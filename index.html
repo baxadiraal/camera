@@ -409,10 +409,11 @@ body.overlay-locked{ overflow:hidden; }
   main{ padding:22px 14px 40px; }
 }
 
-@media (max-width:640px){
+@media (max-width:640px), (max-height:640px) and (orientation:landscape){
   .overlay{ padding:0; }
   .overlay-inner{
     width:100%;
+    width:100dvw;
     max-width:none;
     height:100%;
     height:100dvh;
@@ -423,12 +424,23 @@ body.overlay-locked{ overflow:hidden; }
   .overlay-head{
     flex-shrink:0;
     padding-top:calc(14px + env(safe-area-inset-top));
+    padding-left:calc(16px + env(safe-area-inset-left));
+    padding-right:calc(16px + env(safe-area-inset-right));
   }
   .overlay .video{
     flex:1;
     min-height:0;
     aspect-ratio:auto;
   }
+}
+
+@media (max-height:500px) and (orientation:landscape){
+  .overlay-head{
+    padding-top:calc(8px + env(safe-area-inset-top));
+    padding-bottom:8px;
+  }
+  .overlay-head h3{ font-size:14px; }
+  .overlay-close{ width:28px; height:28px; }
 }
 </style>
 </head>
