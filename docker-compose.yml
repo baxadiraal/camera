@@ -1,0 +1,48 @@
+# Развёртывание на собственном сервере (Узбекистан).
+# Наружу смотрит только web:3000 — его закрывает системный nginx/Caddy с TLS.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-nukus}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nukus}
+      POSTGRES_DB: ${POSTGRES_DB:-nukus_uzdsmi}
+      # Локаль базы важна для сортировки кириллицы и латиницы с диакритикой
+      LANG: ru_RU.utf8
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-nukus} -d ${POSTGRES_DB:-nukus_uzdsmi}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    # Порт наружу не публикуется: база доступна только внутри сети compose
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+      DATABASE_URI: postgres://${POSTGRES_USER:-nukus}:${POSTGRES_PASSWORD:-nukus}@postgres:5432/${POSTGRES_DB:-nukus_uzdsmi}
+      PAYLOAD_SECRET: ${PAYLOAD_SECRET:?PAYLOAD_SECRET обязателен}
+      PAYLOAD_MEDIA_DIR: public/media/uploads
+      PAYLOAD_DOCS_DIR: public/documents
+    ports:
+      - '127.0.0.1:3000:3000'
+    volumes:
+      # Загруженные файлы переживают пересборку образа
+      - media-data:/app/public/media/uploads
+      - documents-data:/app/public/documents
+
+volumes:
+  postgres-data:
+  media-data:
+  documents-data:

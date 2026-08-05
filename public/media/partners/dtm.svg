@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="96" viewBox="0 0 240 96" role="img">
+  <rect width="240" height="96" rx="8" fill="#F5F1E8"/>
+  <rect x="16" y="28" width="40" height="40" rx="8" fill="#1B2A5B"/>
+  <text x="72" y="56" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1B2A5B">DTM</text>
+</svg>
