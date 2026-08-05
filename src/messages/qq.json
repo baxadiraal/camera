@@ -51,7 +51,14 @@
     "readArticle": "Oqıw: {title}",
     "publishedOn": "{date} kúni járiyalanǵan",
     "empty": "Álele járiyalanǵan jańalıqlar joq.",
-    "category": "Rubrika"
+    "category": "Rubrika",
+    "categories": {
+      "institute": "Institut turmısı",
+      "admission": "Qabıllaw",
+      "science": "Ilim",
+      "culture": "Mádeniyat hám kórkem óner",
+      "international": "Xalıqaralıq baylanıslar"
+    }
   },
   "stats": {
     "title": "Institut sanlarda",

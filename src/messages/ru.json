@@ -51,7 +51,14 @@
     "readArticle": "Читать: {title}",
     "publishedOn": "Опубликовано {date}",
     "empty": "Пока нет опубликованных новостей.",
-    "category": "Рубрика"
+    "category": "Рубрика",
+    "categories": {
+      "institute": "Жизнь института",
+      "admission": "Приём",
+      "science": "Наука",
+      "culture": "Культура и искусство",
+      "international": "Международные связи"
+    }
   },
   "stats": {
     "title": "Институт в цифрах",

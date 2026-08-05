@@ -114,6 +114,18 @@
   display: none;
 }
 
+/* Первый экран: вместо индиговой заливки поверх фото — сплошной чёрный */
+:root[data-a11y-contrast='on'] .hero-overlay {
+  background: #000000;
+  opacity: 1;
+}
+
+/* Акцентные плашки: жёлтая заливка и чёрный текст вместо терракоты */
+:root[data-a11y-contrast='on'] .hc-chip {
+  background-color: #ffe14d;
+  color: #000000;
+}
+
 @layer base {
   /* Страховка: атрибут hidden должен побеждать любые utility-классы с display,
      иначе скрытая панель осталась бы на экране (и в дереве доступности) */

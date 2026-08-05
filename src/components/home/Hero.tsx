@@ -27,12 +27,12 @@ export function Hero({ hero }: { readonly hero: HeroContent }) {
       {/* Заливка поверх фото: контраст белого текста ≥ 7:1 при любом снимке */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-700 opacity-[0.88]"
+        className="hero-overlay absolute inset-0 -z-10 bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-700 opacity-[0.88]"
       />
 
       <div className="container-page relative py-16 md:py-26">
         <div className="max-w-[52rem]">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-pill bg-accent px-3 py-1.5 text-sm font-medium text-white">
+          <p className="hc-chip mb-4 inline-flex items-center gap-2 rounded-pill bg-accent-deep px-3 py-1.5 text-sm font-medium text-white">
             2026/2027
           </p>
           <h1 id="hero-title" className="text-h3 text-white md:text-h1 text-balance">

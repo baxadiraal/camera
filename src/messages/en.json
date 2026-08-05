@@ -51,7 +51,14 @@
     "readArticle": "Read: {title}",
     "publishedOn": "Published on {date}",
     "empty": "No news has been published yet.",
-    "category": "Category"
+    "category": "Category",
+    "categories": {
+      "institute": "Institute life",
+      "admission": "Admissions",
+      "science": "Research",
+      "culture": "Arts and culture",
+      "international": "International"
+    }
   },
   "stats": {
     "title": "The institute in numbers",

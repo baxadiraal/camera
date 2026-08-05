@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { Picture } from '@/components/ui/Picture'
+import { CategoryBadge } from './CategoryBadge'
 import { formatDate } from '@/lib/format'
 import { truncateOnWord } from '@/lib/format'
 import type { NewsItem } from '@/types/content'
@@ -56,12 +57,7 @@ export async function NewsCard({
 
       <div className={`flex flex-1 flex-col p-5 ${isFeature ? 'md:p-8' : ''}`}>
         <div className="mb-3 flex flex-wrap items-center gap-3">
-          {item.category && (
-            <span className="rounded-pill bg-sand px-3 py-1 text-sm font-medium text-ink-brand">
-              <span className="visually-hidden">{t('category')}: </span>
-              {item.category}
-            </span>
-          )}
+          <CategoryBadge category={item.category} />
           {/* Дата — текст, не ссылка */}
           <time dateTime={item.publishedAt} className="text-sm text-ink-muted">
             {formatDate(item.publishedAt, locale)}

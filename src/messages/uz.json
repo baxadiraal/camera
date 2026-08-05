@@ -51,7 +51,14 @@
     "readArticle": "Oʻqish: {title}",
     "publishedOn": "{date} kuni eʼlon qilingan",
     "empty": "Hozircha eʼlon qilingan yangiliklar yoʻq.",
-    "category": "Rukn"
+    "category": "Rukn",
+    "categories": {
+      "institute": "Institut hayoti",
+      "admission": "Qabul",
+      "science": "Ilm-fan",
+      "culture": "Madaniyat va sanʼat",
+      "international": "Xalqaro aloqalar"
+    }
   },
   "stats": {
     "title": "Institut raqamlarda",

@@ -10,6 +10,7 @@ import { formatDate } from '@/lib/format'
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs'
 import { BreadcrumbJsonLd, NewsArticleJsonLd } from '@/components/seo/JsonLd'
 import { Picture } from '@/components/ui/Picture'
+import { CategoryBadge } from '@/components/news/CategoryBadge'
 import { RichText } from '@/components/ui/RichText'
 
 export const revalidate = 300
@@ -87,11 +88,7 @@ export default async function NewsArticlePage({
       <article className="container-page py-12 md:py-18">
         <div className="max-w-prose">
           <div className="flex flex-wrap items-center gap-3">
-            {item.category && (
-              <span className="rounded-pill bg-sand px-3 py-1 text-sm font-medium text-ink-brand">
-                {item.category}
-              </span>
-            )}
+            <CategoryBadge category={item.category} />
             {/* Дата публикации — текст, а не ссылка на архив */}
             <time dateTime={item.publishedAt} className="text-sm text-ink-muted">
               {t('publishedOn', { date: formatDate(item.publishedAt, typedLocale) })}
