@@ -1,0 +1,152 @@
+{
+  "site": {
+    "shortName": "ÓzDSMI · Nókis filialı",
+    "fullName": "Ózbekstan mámleketlik kórkem óner hám mádeniyat institutı Nókis filialı",
+    "logoAlt": "Ózbekstan mámleketlik kórkem óner hám mádeniyat institutı Nókis filialınıń gerbi"
+  },
+  "common": {
+    "skipToContent": "Tiykarǵı mazmunǵa ótiw",
+    "home": "Bas bet",
+    "readMore": "Tolıǵıraq",
+    "close": "Jabıw",
+    "open": "Ashıw",
+    "loading": "Júklenbekte",
+    "notFoundTitle": "Bet tabılmadı",
+    "notFoundText": "Bet basqa jerge kóshirilgen yaki mánzil qáte kirgizilgen bolıwı múmkin.",
+    "backHome": "Bas betke qaytıw",
+    "on": "qosılǵan",
+    "off": "óshirilgen"
+  },
+  "header": {
+    "menu": "Menyu",
+    "openMenu": "Menyunı ashıw",
+    "closeMenu": "Menyunı jabıw",
+    "mainNav": "Tiykarǵı navigaciya",
+    "admissionCta": "Qabıllaw 2026",
+    "search": "Izlew",
+    "languageLabel": "Sayt tili",
+    "switchTo": "{language} tiline ótiw",
+    "currentLanguage": "Házirgi til: {language}",
+    "submenuFor": "Bólimler: {section}"
+  },
+  "hero": {
+    "imageAltFallback": "Kórkem óner hám mádeniyat institutı Nókis filialınıń bas imaratı"
+  },
+  "quickActions": {
+    "title": "Tez xızmetler"
+  },
+  "timeline": {
+    "title": "2026-jıl qabıllaw kampaniyası",
+    "subtitle": "Qabıllaw basqıshları hám tiykarǵı sáneler",
+    "statusPast": "Ótti",
+    "statusCurrent": "Házir baratır",
+    "statusFuture": "Aldında",
+    "statusLabel": "Basqısh jaǵdayı",
+    "allStages": "Qabıllaw qaǵıydaları"
+  },
+  "news": {
+    "title": "Jańalıqlar hám xabarlar",
+    "subtitle": "Institut waqıyaları, xabarlar hám daǵazalar",
+    "all": "Barlıq jańalıqlar",
+    "readArticle": "Oqıw: {title}",
+    "publishedOn": "{date} kúni járiyalanǵan",
+    "empty": "Álele járiyalanǵan jańalıqlar joq.",
+    "category": "Rubrika",
+    "categories": {
+      "institute": "Institut turmısı",
+      "admission": "Qabıllaw",
+      "science": "Ilim",
+      "culture": "Mádeniyat hám kórkem óner",
+      "international": "Xalıqaralıq baylanıslar"
+    }
+  },
+  "stats": {
+    "title": "Institut sanlarda",
+    "subtitle": "2025/2026-oqıw jılınıń baslanıwına maǵlıwmatlar"
+  },
+  "services": {
+    "title": "Interaktiv xızmetler",
+    "subtitle": "Abituriyentler, studentler hám xızmetkerler ushın elektron xızmetler",
+    "external": "Sırtqı xızmet, jańa betde ashıladı"
+  },
+  "partners": {
+    "title": "Paydalı resurslar",
+    "subtitle": "Ministrlikler, mákemeler hám sherik shólkemler"
+  },
+  "footer": {
+    "address": "Mánzil",
+    "contacts": "Baylanıs",
+    "transport": "Qalay jetip barıw kerek",
+    "social": "Social tarmaqlar",
+    "sections": "Bólimler",
+    "mapAlt": "Nókis kartasında instituttıń jaylasıw sxeması",
+    "openMap": "Yandex Kartada ashıw",
+    "openMapGoogle": "Google Kartada ashıw",
+    "sitemap": "Sayt kartası",
+    "privacy": "Qupıyalıq siyasatı",
+    "rights": "© {year} ÓzDSMI Nókis filialı. Barlıq huqıqlar qorǵalǵan.",
+    "phone": "Telefon",
+    "email": "Elektron pochta",
+    "workingHours": "Jumıs waqtı"
+  },
+  "search": {
+    "title": "Sayt boyınsha izlew",
+    "placeholder": "Soraw kirgiziń…",
+    "submit": "Izlew",
+    "hint": "Mısalı: qabıllaw, stipendiya, kesteler",
+    "results": "Tabılǵan nátiyjeler: {count}",
+    "empty": "Hesh nárse tabılmadı. Sorawdı ózgertip kóriń.",
+    "openDialog": "Izlewdi ashıw",
+    "closeDialog": "Izlewdi jabıw",
+    "queryLabel": "Izlew sorawı"
+  },
+  "pagination": {
+    "label": "Betler boyınsha navigaciya",
+    "prev": "Artqa",
+    "next": "Aldıǵa",
+    "page": "{page}-bet",
+    "current": "{page}-bet, házirgi",
+    "status": "{total} betten {page}-beti"
+  },
+  "breadcrumbs": {
+    "label": "Nawigaciya izbe-izligi"
+  },
+  "video": {
+    "play": "Videonı kóriw: {title}",
+    "hint": "YouTube pleyeri basqannan keyin júklenedi",
+    "coverAlt": "Video muqabası: {title}"
+  },
+  "a11y": {
+    "title": "Kózi nashar kóriwshiler ushın",
+    "openPanel": "Kózi nashar kóriwshiler ushın sazlawlar",
+    "closePanel": "Sazlawlardı jabıw",
+    "fontSize": "Shrift ólshemi",
+    "fontNormal": "Ápiwayı",
+    "fontLarge": "Úlken",
+    "fontXlarge": "Júdá úlken",
+    "contrast": "Joqarı kontrast",
+    "images": "Súwretler",
+    "hideImages": "Súwretlerdi óshiriw",
+    "reset": "Sazlawlardı qaytarıw",
+    "enabled": "Qosılǵan",
+    "disabled": "Óshirilgen"
+  },
+  "consent": {
+    "text": "Saytti jaqsılaw ushın anonim statistikadan paydalanamız. Jeke maǵlıwmatlar jıynalmaydı.",
+    "accept": "Qabıl etiw",
+    "decline": "Bas tartıw",
+    "more": "Qupıyalıq siyasatı",
+    "label": "Statistika jıynawǵa razılıq"
+  },
+  "privacy": {
+    "title": "Qupıyalıq siyasatı",
+    "intro": "Institut saytı keliwshilerdiń jeke maǵlıwmatların olardıń razılıǵısız jıynamaydı hám úshinshi tárepke bermeydi.",
+    "analytics": "Keliwler statistikası instituttıń óz infrastrukturasında turǵan analitika serveri arqalı jıynaladı. Maǵlıwmatlar anonim: IP mánzil saqlanbaydı, saytlar aralıq identifikatorlar qollanılmaydı. Jıynaw tek anıq razılıqtan keyin baslanadı.",
+    "cookies": "Xızmet fayları tańlanǵan tildi hám kózi nashar kóriwshiler ushın sazlawlardı esde saqlaydı. Bul maǵlıwmatlar brauzerde qaladı hám qurılmadan shıqpaydı.",
+    "contact": "Maǵlıwmatlardı qayta islew boyınsha sorawlardı sayttıń tómengi bóliminde kórsetilgen institut elektron pochtasına jiberiń."
+  },
+  "sitemapPage": {
+    "title": "Sayt kartası",
+    "subtitle": "Sayttıń barlıq bólimleri bir bette"
+  }
+}

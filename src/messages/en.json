@@ -1,0 +1,152 @@
+{
+  "site": {
+    "shortName": "UzSIAC · Nukus Branch",
+    "fullName": "Nukus Branch of the Uzbek State Institute of Arts and Culture",
+    "logoAlt": "Emblem of the Nukus Branch of the Uzbek State Institute of Arts and Culture"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "home": "Home",
+    "readMore": "Read more",
+    "close": "Close",
+    "open": "Open",
+    "loading": "Loading",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page may have been moved, or the address contains a typo.",
+    "backHome": "Back to the home page",
+    "on": "on",
+    "off": "off"
+  },
+  "header": {
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "admissionCta": "Admissions 2026",
+    "search": "Search",
+    "languageLabel": "Site language",
+    "switchTo": "Switch to {language}",
+    "currentLanguage": "Current language: {language}",
+    "submenuFor": "Subsections: {section}"
+  },
+  "hero": {
+    "imageAltFallback": "Main building of the Nukus Branch of the Institute of Arts and Culture"
+  },
+  "quickActions": {
+    "title": "Quick actions"
+  },
+  "timeline": {
+    "title": "Admissions campaign 2026",
+    "subtitle": "Application stages and key dates",
+    "statusPast": "Completed",
+    "statusCurrent": "In progress",
+    "statusFuture": "Upcoming",
+    "statusLabel": "Stage status",
+    "allStages": "Full admission rules"
+  },
+  "news": {
+    "title": "News and announcements",
+    "subtitle": "Institute events, announcements and notices",
+    "all": "All news",
+    "readArticle": "Read: {title}",
+    "publishedOn": "Published on {date}",
+    "empty": "No news has been published yet.",
+    "category": "Category",
+    "categories": {
+      "institute": "Institute life",
+      "admission": "Admissions",
+      "science": "Research",
+      "culture": "Arts and culture",
+      "international": "International"
+    }
+  },
+  "stats": {
+    "title": "The institute in numbers",
+    "subtitle": "Figures as of the start of the 2025/2026 academic year"
+  },
+  "services": {
+    "title": "Interactive services",
+    "subtitle": "Online services for applicants, students and staff",
+    "external": "External service, opens in a new tab"
+  },
+  "partners": {
+    "title": "Useful resources",
+    "subtitle": "Ministries, agencies and partner organisations"
+  },
+  "footer": {
+    "address": "Address",
+    "contacts": "Contacts",
+    "transport": "Getting here",
+    "social": "Social media",
+    "sections": "Sections",
+    "mapAlt": "Map showing the location of the institute in Nukus",
+    "openMap": "Open in Yandex Maps",
+    "openMapGoogle": "Open in Google Maps",
+    "sitemap": "Sitemap",
+    "privacy": "Privacy policy",
+    "rights": "© {year} Nukus Branch, UzSIAC. All rights reserved.",
+    "phone": "Phone",
+    "email": "Email",
+    "workingHours": "Opening hours"
+  },
+  "search": {
+    "title": "Search the site",
+    "placeholder": "Type your query…",
+    "submit": "Search",
+    "hint": "For example: admission, scholarship, timetable",
+    "results": "Results found: {count}",
+    "empty": "Nothing found. Try a different query.",
+    "openDialog": "Open search",
+    "closeDialog": "Close search",
+    "queryLabel": "Search query"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {page}",
+    "current": "Page {page}, current",
+    "status": "Page {page} of {total}"
+  },
+  "breadcrumbs": {
+    "label": "Breadcrumb"
+  },
+  "video": {
+    "play": "Play video: {title}",
+    "hint": "The YouTube player loads after you click",
+    "coverAlt": "Video cover: {title}"
+  },
+  "a11y": {
+    "title": "Accessibility version",
+    "openPanel": "Accessibility settings",
+    "closePanel": "Close accessibility settings",
+    "fontSize": "Text size",
+    "fontNormal": "Normal",
+    "fontLarge": "Large",
+    "fontXlarge": "Extra large",
+    "contrast": "High contrast",
+    "images": "Images",
+    "hideImages": "Turn images off",
+    "reset": "Reset settings",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "consent": {
+    "text": "We use anonymous visit statistics to improve the site. No personal data is collected.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "more": "Privacy policy",
+    "label": "Consent to analytics"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "intro": "The institute website does not collect visitors’ personal data without their consent and does not share it with third parties.",
+    "analytics": "Visit statistics are collected by a self-hosted analytics server running on the institute’s own infrastructure. The data is anonymous: IP addresses are not stored and no cross-site identifiers are used. Collection starts only after explicit consent.",
+    "cookies": "Functional storage keeps the selected language and the accessibility settings. These values stay in the browser and never leave the device.",
+    "contact": "Questions about data processing can be sent to the institute email address listed in the footer."
+  },
+  "sitemapPage": {
+    "title": "Sitemap",
+    "subtitle": "Every section of the site on one page"
+  }
+}

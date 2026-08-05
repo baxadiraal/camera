@@ -1,0 +1,152 @@
+{
+  "site": {
+    "shortName": "OʻzDSMI · Nukus filiali",
+    "fullName": "Oʻzbekiston davlat sanʼat va madaniyat instituti Nukus filiali",
+    "logoAlt": "Oʻzbekiston davlat sanʼat va madaniyat instituti Nukus filiali gerbi"
+  },
+  "common": {
+    "skipToContent": "Asosiy mazmunga oʻtish",
+    "home": "Bosh sahifa",
+    "readMore": "Batafsil",
+    "close": "Yopish",
+    "open": "Ochish",
+    "loading": "Yuklanmoqda",
+    "notFoundTitle": "Sahifa topilmadi",
+    "notFoundText": "Sahifa koʻchirilgan yoki manzil xato kiritilgan boʻlishi mumkin.",
+    "backHome": "Bosh sahifaga qaytish",
+    "on": "yoqilgan",
+    "off": "oʻchirilgan"
+  },
+  "header": {
+    "menu": "Menyu",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "mainNav": "Asosiy navigatsiya",
+    "admissionCta": "Qabul 2026",
+    "search": "Qidiruv",
+    "languageLabel": "Sayt tili",
+    "switchTo": "{language} tiliga oʻtish",
+    "currentLanguage": "Joriy til: {language}",
+    "submenuFor": "Boʻlimlar: {section}"
+  },
+  "hero": {
+    "imageAltFallback": "Sanʼat va madaniyat instituti Nukus filialining bosh binosi"
+  },
+  "quickActions": {
+    "title": "Tezkor xizmatlar"
+  },
+  "timeline": {
+    "title": "2026-yil qabul kampaniyasi",
+    "subtitle": "Qabul bosqichlari va asosiy sanalar",
+    "statusPast": "Oʻtdi",
+    "statusCurrent": "Hozir davom etmoqda",
+    "statusFuture": "Oldinda",
+    "statusLabel": "Bosqich holati",
+    "allStages": "Qabul qoidalari"
+  },
+  "news": {
+    "title": "Yangiliklar va eʼlonlar",
+    "subtitle": "Institut voqealari, eʼlonlar va anonslar",
+    "all": "Barcha yangiliklar",
+    "readArticle": "Oʻqish: {title}",
+    "publishedOn": "{date} kuni eʼlon qilingan",
+    "empty": "Hozircha eʼlon qilingan yangiliklar yoʻq.",
+    "category": "Rukn",
+    "categories": {
+      "institute": "Institut hayoti",
+      "admission": "Qabul",
+      "science": "Ilm-fan",
+      "culture": "Madaniyat va sanʼat",
+      "international": "Xalqaro aloqalar"
+    }
+  },
+  "stats": {
+    "title": "Institut raqamlarda",
+    "subtitle": "2025/2026-oʻquv yili boshiga maʼlumotlar"
+  },
+  "services": {
+    "title": "Interaktiv xizmatlar",
+    "subtitle": "Abituriyentlar, talabalar va xodimlar uchun elektron xizmatlar",
+    "external": "Tashqi xizmat, yangi oynada ochiladi"
+  },
+  "partners": {
+    "title": "Foydali resurslar",
+    "subtitle": "Vazirliklar, idoralar va hamkor tashkilotlar"
+  },
+  "footer": {
+    "address": "Manzil",
+    "contacts": "Aloqa",
+    "transport": "Qanday borish mumkin",
+    "social": "Ijtimoiy tarmoqlar",
+    "sections": "Boʻlimlar",
+    "mapAlt": "Nukus xaritasida institut joylashuvi sxemasi",
+    "openMap": "Yandex Xaritada ochish",
+    "openMapGoogle": "Google Xaritada ochish",
+    "sitemap": "Sayt xaritasi",
+    "privacy": "Maxfiylik siyosati",
+    "rights": "© {year} OʻzDSMI Nukus filiali. Barcha huquqlar himoyalangan.",
+    "phone": "Telefon",
+    "email": "Elektron pochta",
+    "workingHours": "Ish vaqti"
+  },
+  "search": {
+    "title": "Sayt boʻyicha qidiruv",
+    "placeholder": "Soʻrovni kiriting…",
+    "submit": "Qidirish",
+    "hint": "Masalan: qabul, stipendiya, dars jadvali",
+    "results": "Topilgan natijalar: {count}",
+    "empty": "Hech narsa topilmadi. Soʻrovni oʻzgartirib koʻring.",
+    "openDialog": "Qidiruvni ochish",
+    "closeDialog": "Qidiruvni yopish",
+    "queryLabel": "Qidiruv soʻrovi"
+  },
+  "pagination": {
+    "label": "Sahifalar boʻyicha navigatsiya",
+    "prev": "Orqaga",
+    "next": "Oldinga",
+    "page": "{page}-sahifa",
+    "current": "{page}-sahifa, joriy",
+    "status": "{total} sahifadan {page}-si"
+  },
+  "breadcrumbs": {
+    "label": "Navigatsiya zanjiri"
+  },
+  "video": {
+    "play": "Videoni koʻrish: {title}",
+    "hint": "YouTube pleyeri bosilgandan soʻng yuklanadi",
+    "coverAlt": "Video muqovasi: {title}"
+  },
+  "a11y": {
+    "title": "Koʻzi ojizlar uchun versiya",
+    "openPanel": "Koʻzi ojizlar uchun sozlamalar",
+    "closePanel": "Sozlamalarni yopish",
+    "fontSize": "Shrift oʻlchami",
+    "fontNormal": "Oddiy",
+    "fontLarge": "Katta",
+    "fontXlarge": "Juda katta",
+    "contrast": "Yuqori kontrast",
+    "images": "Rasmlar",
+    "hideImages": "Rasmlarni oʻchirish",
+    "reset": "Sozlamalarni tiklash",
+    "enabled": "Yoqilgan",
+    "disabled": "Oʻchirilgan"
+  },
+  "consent": {
+    "text": "Saytni yaxshilash uchun anonim statistikadan foydalanamiz. Shaxsiy maʼlumotlar toʻplanmaydi.",
+    "accept": "Qabul qilish",
+    "decline": "Rad etish",
+    "more": "Maxfiylik siyosati",
+    "label": "Statistika toʻplashga rozilik"
+  },
+  "privacy": {
+    "title": "Maxfiylik siyosati",
+    "intro": "Institut sayti tashrif buyuruvchilarning shaxsiy maʼlumotlarini ularning roziligisiz toʻplamaydi va uchinchi shaxslarga bermaydi.",
+    "analytics": "Tashriflar statistikasi institut infratuzilmasida joylashgan oʻz analitika serveri orqali toʻplanadi. Maʼlumotlar anonim: IP manzil saqlanmaydi, saytlararo identifikatorlar ishlatilmaydi. Yigʻish faqat aniq rozilikdan keyin boshlanadi.",
+    "cookies": "Xizmat koʻrsatuvchi saqlash tanlangan til va koʻzi ojizlar uchun sozlamalarni eslab qoladi. Bu qiymatlar brauzerda qoladi va qurilmadan chiqmaydi.",
+    "contact": "Maʼlumotlarni qayta ishlash boʻyicha savollarni sayt pastki qismida koʻrsatilgan institut elektron pochtasiga yuboring."
+  },
+  "sitemapPage": {
+    "title": "Sayt xaritasi",
+    "subtitle": "Saytning barcha boʻlimlari bir sahifada"
+  }
+}
